@@ -16,3 +16,8 @@ p{
 h2.important{
     font-size: 32px;
 }
+
+body {
+    background-color: rgb(0, 0, 97);
+    color:aqua;
+  }
