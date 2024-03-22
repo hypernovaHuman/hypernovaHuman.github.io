@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aquamarine;
+  }
+  
+  h1 {
+    color: hotpink;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px dotted #873797;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  .job-title {
+    color: #f5cfff;
+    font-weight: bold;
+  }
+  
+  a:link, a:visited {
+    color: orange;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: green;
+  }
+
+  ul {
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding: 1em;
+  }
