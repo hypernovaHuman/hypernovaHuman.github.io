@@ -23,5 +23,7 @@ body {
 }
 
 .AboutMePage {
-    border: 10px dotted rgb(152, 251, 229);
+    border: 5px dotted rgb(152, 251, 229);
+    padding: 0.5em;
+    margin: 3px, 1px, 3px, 1px;
 }
