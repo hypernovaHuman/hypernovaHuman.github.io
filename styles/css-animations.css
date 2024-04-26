@@ -23,10 +23,11 @@
 
 .animated-nav-menu a {
     text-decoration: none;
-    border-radius: 10%;
+    border-radius: 100%;
     padding: 4px;
     color: #00aaff;
     background-color: white;
+    transition: 0.5s;
 }
 
 .animated-nav-menu a:hover {
@@ -40,20 +41,16 @@
 /* Task 3: Button Press Animation */
 
 
-/* .button-press-animation button:hover {
+.button-press-animation button{
     padding: 10px 20px;
     border: none;
-    background-color: white;
-    color: #00aaff;
+    background-color: rgb(107, 79, 172);
+    color: purple;
     cursor: pointer; 
-} */
+}
 
-.button-press-animation button:action {
-    padding: 10px 20px;
-    border: none;
-    background-color: white;
-    color: #00aaff;
-    cursor: pointer;
+.button-press-animation button:active {
+    box-shadow: 10px 5px 5px purple;
     transform: scale(0.5);
 }
 
