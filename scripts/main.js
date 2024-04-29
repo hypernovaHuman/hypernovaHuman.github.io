@@ -10,7 +10,7 @@
 
 console.log("Task One");
 for (let i = 1; i <= 10; i++) {
-    console.log(i * i)
+    console.log(i * i);
 }
 
 console.log("Task Two");
@@ -25,7 +25,7 @@ for (let i = 0; i <= 50; i += 2) {
 }
 
 console.log("Task Four");
-let sum = 0
+let sum = 0;
 for (let i = 1; i <= 100; i += 1) {
     sum += i;
 }
@@ -49,23 +49,26 @@ for (let n = 1; n <= 10; n += 1) {
 
 console.log("Task Six");
 let arr = [3,1,4,1,5];
-for (let i = 1; i <= arr.length; i++) {
+for (let i = 0; i <= arr.length; i++) {
     console.log(arr[i]);
 }
 
 console.log("Task Seven");
-for (let i = 1; i <= arr.length; i++) {
-    console.log(arr.at(-1, -2, -3, -4, -5));
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr.at(-1 * i));
 }
 
 console.log("Task Eight");
-sum = 0
-for (let i = 1; i <= arr.length; i++) {
-    console.log(arr.at(-1, -2, -3, -4, -5));
-    
+let cubic = [];
+for (let i = 0; i <= arr.length; i++) {
+   cubic.push(i*i*i);
 }
+console.log(cubic);
 
 console.log("Task Nine");
+for (let i = 0; i < arr.length; i++) {
+
+}
 
 console.log("Task Ten");
 
