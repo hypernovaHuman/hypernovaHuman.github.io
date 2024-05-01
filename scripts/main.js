@@ -55,20 +55,22 @@ for (let i = 0; i <= arr.length; i++) {
 
 console.log("Task Seven");
 for (let i = 0; i < arr.length; i++) {
-    console.log(arr.at(-1 * i));
+    console.log(arr.at(-1 * i - 1));
 }
 
 console.log("Task Eight");
 let cubic = [];
-for (let i = 0; i <= arr.length; i++) {
+for (let i = 0; i <= 10; i++) {
    cubic.push(i*i*i);
 }
 console.log(cubic);
 
 console.log("Task Nine");
-for (let i = 0; i < arr.length; i++) {
-
+let fibonacci = [0, 1];
+for (let i = 0; i <= 10 ; i++) {
+    fibonacci.push(arr.at(-1) + arr.at(-2));
 }
+console.log(fibonacci);
 
 console.log("Task Ten");
 
