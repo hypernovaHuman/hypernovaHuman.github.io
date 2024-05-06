@@ -67,14 +67,14 @@ console.log(cubic);
 
 console.log("Task Nine");
 let fibonacci = [0, 1];
-for (let i = 0; i <= 10 ; i++) {
+for (let i = 0; i <= 10; i++) {
     fibonacci.push(fibonacci.at(-1) + fibonacci.at(-2));
 }
 console.log(fibonacci);
 
 console.log("Task Ten");
 let nova = [];
-for (let i = 0; i <= arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
     nova.push(arr.at(-1 * i -1));
 }
 console.log(nova);
