@@ -61,7 +61,7 @@ for (let i = 0; i < arr.length; i++) {
 console.log("Task Eight");
 let cubic = [];
 for (let i = 0; i <= 10; i++) {
-   cubic.push(i*i*i);
+   cubic.push(i * i * i);
 }
 console.log(cubic);
 
