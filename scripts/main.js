@@ -49,7 +49,7 @@ for (let n = 1; n <= 10; n += 1) {
 
 console.log("Task Six");
 let arr = [3,1,4,1,5];
-for (let i = 0; i <= arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 }
 
