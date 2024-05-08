@@ -41,12 +41,12 @@
 /* Task 3: Button Press Animation */
 
 
-.button-press-animation button{
+.button-press-animation button {
     padding: 10px 20px;
     border: none;
     background-color: rgb(107, 79, 172);
     color: purple;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .button-press-animation button:active {
@@ -55,12 +55,25 @@
 }
 
 /* Task 4: Simple Loading Spinner */
-.simple-loading-spinner .spinner {
+.simple-loading-spinner .spinner{
     border: 4px solid #f3f3f3;
     border-top: 4px solid #3498db;
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    animation: spinningBeachBallOfDeath 1s infinite linear;
+}
+
+@keyframes spinningBeachBallOfDeath {
+    from {
+        transform: rotate(0);
+
+    }
+
+    to {
+        transform: rotate(1turn);
+
+    }
 }
 
 /* Task 5: Fading Gallery */
@@ -74,4 +87,12 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+    opacity: 0.5s;
+}
+
+.fading-gallery img:hover {
+   transition: 0.5s;
+   transform: translateY(-10px) scale(1.5);
+   box-shadow: 10px 5px 5px purple;
+
 }
