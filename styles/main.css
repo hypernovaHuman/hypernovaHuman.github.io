@@ -2,6 +2,11 @@ p{
     color: rgb(174, 74, 255);
     text-align: left;
 }
+
+div{
+    background-color: green;
+    margin:0;
+}
 #The-end-of-humanity{
     font-size: larger;
 }
