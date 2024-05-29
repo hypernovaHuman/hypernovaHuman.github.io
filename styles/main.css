@@ -1,15 +1,16 @@
 p{
-    color: rgb(174, 74, 255);
     text-align: left;
+    padding: 10px 20px;
 }
 
 div{
-    background-color: green;
+    background-color: rgb(79, 168, 209);
 }
 
 h1, h2, p{
     margin: 0;
-    color: rgb(0, 191, 255);
+    color: rgb(58, 88, 145);
+    font-family: cursive;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
 }
 
 div.linkBox{
-    background-color: aqua;
+    background-color: rgb(0, 216, 216);
     padding: 10px 50px 10px 10px;
 }
 
@@ -31,6 +32,10 @@ div.linkBox{
 
 .condescending{
     color: rgb(0, 136, 255);
+}
+
+.flex {
+    display: flex;
 }
 
 h2.important{
