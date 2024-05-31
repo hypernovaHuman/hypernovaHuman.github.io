@@ -1,33 +1,85 @@
+h1{
+    font-weight: thick;
+}
+
 p{
     text-align: left;
     padding: 10px 20px;
 }
 
-div{
-    background-color: rgb(79, 168, 209);
+img{
+    height: 300px;
+    width: auto;
+    border-radius: 5% 30% 5% 30%;
+}
+
+div.dark{
+    background-color: #6BCDE3;
+    padding: 10px 50px 10px 10px;
 }
 
 h1, h2, p{
     margin: 0;
+    /* padding: 10px 10px 10px 10px; */
     color: rgb(58, 88, 145);
     font-family: cursive;
 }
 
 body{
     margin: 0;
+    background-color: #6BCDE3;
 }
 
-div.linkBox{
-    background-color: rgb(0, 216, 216);
+div.light{
+    background-color: #70c3e9;
     padding: 10px 50px 10px 10px;
 }
+
+#nature {
+   margin: 20px;
+   border: thick double rgb(0, 137, 223);
+}
+
+.btn{
+    color: rgb(58, 88, 145);
+    border: 1px solid  rgb(58, 88, 145);
+    border-radius: 4px;
+    padding: 4px;
+    margin: 5px;
+    background-color: #6BC;
+    box-shadow: 2px 2px 1px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.btn:hover {
+    transform: ; 
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
 
 #The-end-of-humanity{
     font-size: larger;
 }
 
 .important {
-    color: rgb(0, 255, 170);
+    color: rgb(0, 183, 255);
 }
 
 .condescending{
@@ -36,7 +88,9 @@ div.linkBox{
 
 .flex {
     display: flex;
-}
+        justify-content: space-around;
+        align-items:center;
+} 
 
 h2.important{
     font-size: 32px;

@@ -9,22 +9,22 @@
 </head>
 
 <body>
-    <div class="linkBox">
+    <div class="linkBox light">
         <a class="btn" href="about.html">
             About Me
         </a>
-        <a href="menu.html">
-            <button>Sound Menu</button>
+        <a class="btn" href="menu.html">
+            Sound Menu
         </a>
     </div>
     <audio src="AudioTest.ogg" autoplay loop></audio>
 
-    <div class="headerBox">
+    <div class="headerBox dark">
         <h1 class="headerOne"> The Sound of Silence</h1>
         <h2> A Temporary Relief From Emotional Torment</h2>
     </div>
 
-    <div class="intoductionBox flex">
+    <div class="intoductionBox flex light">
         <p class="introductionBox">
             Welcome to the Sound of Silence. This website is free and open to anyone who needs to calm
             a disturbed mind. Allow the sounds of nature to embrace your soul and heal your tormented
@@ -36,25 +36,27 @@
         <img class="introductionBox" src="images/stackedrocks.jpg" alt="Tranquil photo of stacked rocks."
             style="width:30vw; min-width: 300px;">
     </div>
-    <div class="natureBenefits">
+    <div class="natureBenefits dark">
         <h2>Are Nature Sounds Really Beneficial for Your Mental Health?</h2>
-        <p class="natureBenefitsOne">
-            Scientific research has demostrated that listening to nature sounds can improve cognitive
-            functioning and boost mood. They serve as a convenient gateway to mindfulness, which can enhance
-            sleep quality, restore mental fatigue and burnout, build stress resilience, and improve an
-            individual's emotional wellbeing. Moreover, utilizing nature sounds can also help people connect
-            with the natural world around them and their environment.
-        </p>
+        <div class="benefits flex">
+            <p class="natureBenefitsOne">
+                Scientific research has demostrated that listening to nature sounds can improve cognitive
+                functioning and boost mood. They serve as a convenient gateway to mindfulness, which can enhance
+                sleep quality, restore mental fatigue and burnout, build stress resilience, and improve an
+                individual's emotional wellbeing. Moreover, utilizing nature sounds can also help people connect
+                with the natural world around them and their environment.
+            </p>
 
-        <p>
-            Look at this absolutely fascinating <a
-                href="https://www.therapedic.com/blog/why-nature-sounds-help-you-relax">study</a> on the benefits of
-            listening to the symphony of nature.
+            <p id="nature">
+                Look at this absolutely fascinating <a
+                    href="https://www.therapedic.com/blog/why-nature-sounds-help-you-relax">study</a> on the benefits of
+                listening to the symphony of nature.
         </p>
+        </div>
     </div>
 
-    <script src="scripts/main.js"></script>
-    <script src="scripts/dynamicContent.js"></script>
+    <!-- <script src="scripts/main.js"></script>
+    <script src="scripts/dynamicContent.js"></script> -->
 </body>
 
 </html>
