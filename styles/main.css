@@ -50,15 +50,24 @@ div.light{
     box-shadow: 2px 2px 1px;
     text-decoration: none;
     font-family: cursive;
+    transition: 2s;
+    
 }
 
-.btn:hover {
-    transform: ; 
+.btn:hover{
+    transform: scale(1.5);
+}
+
+
+/* .btn:hover {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s;
 }
 
 @keyframes pulse {
 	0% {
-		transform: scale(0.95);
+		transform: scale(0.5);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
 	}
 
@@ -68,10 +77,10 @@ div.light{
 	}
 
 	100% {
-		transform: scale(0.95);
+		transform: scale(0.5);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
-}
+} */
 
 
 #The-end-of-humanity{
