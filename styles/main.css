@@ -40,6 +40,12 @@ div.light{
    border: thick double rgb(0, 137, 223);
 }
 
+flex {
+    display: flex;
+        justify-content: space-around;
+        align-items:center;
+} 
+
 .btn{
     color: rgb(58, 88, 145);
     border: 1px solid  rgb(58, 88, 145);
@@ -95,11 +101,6 @@ div.light{
     color: rgb(0, 136, 255);
 }
 
-.flex {
-    display: flex;
-        justify-content: space-around;
-        align-items:center;
-} 
 
 h2.important{
     font-size: 32px;
