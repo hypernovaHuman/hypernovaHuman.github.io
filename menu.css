@@ -1,0 +1,47 @@
+h1{
+    font-weight: thick;
+}
+
+p{
+    text-align: left;
+    padding: 10px 20px;
+}
+
+img{
+    height: 300px;
+    width: auto;
+    border-radius: 5% 30% 5% 30%;
+}
+
+div.dark{
+    background-color: #6BCDE3;
+    padding: 10px 50px 10px 10px;
+}
+
+h1, h2, p{
+    margin: 0;
+    /* padding: 10px 10px 10px 10px; */
+    color: rgb(58, 88, 145);
+    font-family: cursive;
+}
+
+body{
+    margin: 0;
+    background-color: #6BCDE3;
+}
+
+div.light{
+    background-color: #70c3e9;
+    padding: 10px 50px 10px 10px;
+}
+
+#contactList {
+   margin: 20px;
+   border: thick double rgb(0, 137, 223);
+}
+
+.flex {
+    display: flex;
+        justify-content: space-around;
+        align-items:center;
+} 

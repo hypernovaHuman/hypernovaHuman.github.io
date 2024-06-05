@@ -40,7 +40,7 @@ div.light{
    border: thick double rgb(0, 137, 223);
 }
 
-flex {
+.flex {
     display: flex;
         justify-content: space-around;
         align-items:center;
