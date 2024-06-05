@@ -1,5 +1,6 @@
-h1{
+h1, h2{
     font-weight: thick;
+    text-align: center;
 }
 
 p{
@@ -44,7 +45,13 @@ div.light{
     display: flex;
         justify-content: space-around;
         align-items:center;
-} 
+}
+
+.linkBox{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+}
 
 .btn{
     color: rgb(58, 88, 145);
@@ -54,10 +61,12 @@ div.light{
     margin: 5px;
     background-color: #6BC;
     box-shadow: 2px 2px 1px;
-    text-decoration: none;
     font-family: cursive;
     transition: 2s;
-    
+}
+
+.btn a {
+    text-decoration: none;
 }
 
 .btn:hover{
@@ -65,57 +74,3 @@ div.light{
 }
 
 
-/* .btn:hover {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 2s;
-}
-
-@keyframes pulse {
-	0% {
-		transform: scale(0.5);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-	}
-
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-	}
-
-	100% {
-		transform: scale(0.5);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
-} */
-
-
-#The-end-of-humanity{
-    font-size: larger;
-}
-
-.important {
-    color: rgb(0, 183, 255);
-}
-
-.condescending{
-    color: rgb(0, 136, 255);
-}
-
-
-h2.important{
-    font-size: 32px;
-}
-
-.AboutMePage {
-    border: 5px dotted rgb(152, 159, 251);
-    padding: 0.5em;
-    margin: 3px, 1px, 3px, 1px;
-}
-
-ol, ul {
-    text-align:left;
-}
-
-h2, h1, h3 {
-    text-align:center;
-}

@@ -1,5 +1,6 @@
 h1{
     font-weight: thick;
+    text-align: center;
 }
 
 p{
@@ -18,7 +19,7 @@ div.dark{
     padding: 10px 50px 10px 10px;
 }
 
-h1, h2, p{
+h1, h2, p, li{
     margin: 0;
     /* padding: 10px 10px 10px 10px; */
     color: rgb(58, 88, 145);
@@ -35,13 +36,17 @@ div.light{
     padding: 10px 50px 10px 10px;
 }
 
-#contactList {
+ul {
    margin: 20px;
    border: thick double rgb(0, 137, 223);
+   width: fit-content;
+   
 }
 
 .flex {
     display: flex;
         justify-content: space-around;
         align-items:center;
-} 
+}
+
+

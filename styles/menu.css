@@ -1,10 +1,11 @@
 h1{
     font-weight: thick;
+    text-align: center;
 }
 
 p{
     text-align: left;
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 img{
@@ -45,3 +46,7 @@ div.light{
         justify-content: space-around;
         align-items:center;
 } 
+
+.button{
+    
+}
