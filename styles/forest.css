@@ -90,4 +90,23 @@ body{
     transform: scale(1.5);
 }
 
+.timerButton{
+    width: 60px;
+    height: 30;
+    border: thick double rgb(58, 88, 145);
+    /* border-radius: */
+    background-color: #6BC;
+    color: rgb(58, 88, 145);
+    font-family: cursive;
+    cursor: pinter;
+}
+
+#timeDisplay{
+    font-size: 50px;
+    color: rgb(58, 88, 145);
+    background-color: #6BC;
+    border: thick double rgb(58, 88, 145);
+    /* border-radius: */
+}
+
 
