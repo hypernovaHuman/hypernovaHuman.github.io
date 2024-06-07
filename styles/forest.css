@@ -1,0 +1,93 @@
+body{
+    /* background-image: */
+
+}
+
+.snowWrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* z-index: 9999; */
+
+}
+
+.snow{
+    width: 5px;
+    height: 5px;
+    background: palegreen;
+    border-radius: 50%;
+    animation: snowFall 30s linear infinite;
+    opacity: 0.8;
+
+    position: absolute;
+    left: 0;
+    top:-40px;
+}
+
+@keyframes snowfall{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(100vh);
+    }
+}
+
+.snow:nth-child(1) {
+    left: 80%;
+    width: 10px;
+    height: 10px;
+    opacity: 0.1;
+    animation-delay: 0s;
+    animation-duration: 10s;
+}
+
+.snow:nth-child(2) {
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    opacity: 0.66;
+    animation-delay: 2s;
+}
+
+.snow:nth-child(3) {
+    left: 25%;
+    width: 40px;
+    height: 40px;
+    opacity: 0.33;
+    animation-delay: 4s;
+}
+
+.snow:nth-child(4) {
+    left: 25%;
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    animation-delay: 10s;
+}
+
+.btn{
+    color: rgb(58, 88, 145);
+    border: 1px solid  rgb(58, 88, 145);
+    border-radius: 4px;
+    padding: 4px;
+    margin: 5px;
+    background-color: #6BC;
+    box-shadow: 2px 2px 1px;
+    font-family: cursive;
+    transition: 2s;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(58, 88, 145);;
+}
+
+.btn:hover{
+    transform: scale(1.5);
+}
+
+
