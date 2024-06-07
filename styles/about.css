@@ -19,11 +19,12 @@ div.dark{
     padding: 10px 50px 10px 10px;
 }
 
-h1, h2, p, li{
+h1, h2, p{
     margin: 0;
     /* padding: 10px 10px 10px 10px; */
     color: rgb(58, 88, 145);
     font-family: cursive;
+    text-align: center;
 }
 
 body{
@@ -40,7 +41,9 @@ ul {
    margin: 20px;
    border: thick double rgb(0, 137, 223);
    width: fit-content;
-   padding: 5px;
+   margin: 7px;
+   color: rgb(58, 88, 145);
+   font-family: cursive;
    
 }
 
