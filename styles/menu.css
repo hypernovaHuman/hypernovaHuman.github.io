@@ -90,6 +90,7 @@ div.light{
     box-shadow: 2px 2px 1px;
     font-family: cursive;
     transition: 2s;
+    text-align: center;
 }
 
 .button a {
