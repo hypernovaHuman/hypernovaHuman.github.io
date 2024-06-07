@@ -47,6 +47,24 @@ div.light{
         align-items:center;
 } 
 
-.button{
-    
+.btn{
+    color: rgb(58, 88, 145);
+    border: 1px solid  rgb(58, 88, 145);
+    border-radius: 4px;
+    padding: 4px;
+    margin: 5px;
+    background-color: #6BC;
+    box-shadow: 2px 2px 1px;
+    font-family: cursive;
+    transition: 2s;
 }
+
+.btn a {
+    text-decoration: none;
+    color: rgb(58, 88, 145);;
+}
+
+.btn:hover{
+    transform: scale(1.5);
+}
+
