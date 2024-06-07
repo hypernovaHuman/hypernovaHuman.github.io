@@ -97,7 +97,7 @@ div.light{
     color: rgb(11, 70, 104);;
 }
 
-.btn:hover{
+.button:hover{
     transform: scale(2) rotate(360deg);
     color:deepskyblue;
     border: 1px dotted deepskyblue;
