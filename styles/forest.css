@@ -1,7 +1,8 @@
 body{
-    /* background-image: */
-
-}
+    background-image: url(../images/forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
 
 .snowWrap{
     position: absolute;
@@ -10,7 +11,7 @@ body{
     width: 100%;
     height: 100%;
     pointer-events: none;
-    /* z-index: 9999; */
+    z-index: 9999;
 
 }
 
@@ -19,20 +20,22 @@ body{
     height: 5px;
     background: palegreen;
     border-radius: 50%;
-    animation: snowFall 30s linear infinite;
+    animation: snowfall 30s linear infinite;
+    animation-fill-mode: both;
     opacity: 0.8;
-
     position: absolute;
-    left: 0;
+    left: 10%;
     top:-40px;
 }
 
 @keyframes snowfall{
     0%{
         transform: translateY(0);
+        /* top: 0; */
     }
     100%{
         transform: translateY(100vh);
+        /* top: 100vh; */
     }
 }
 
@@ -40,7 +43,7 @@ body{
     left: 80%;
     width: 10px;
     height: 10px;
-    opacity: 0.1;
+    opacity: 0.4;
     animation-delay: 0s;
     animation-duration: 10s;
 }
@@ -50,7 +53,7 @@ body{
     width: 20px;
     height: 20px;
     opacity: 0.66;
-    animation-delay: 2s;
+    animation-delay: 15s;
 }
 
 .snow:nth-child(3) {
@@ -62,11 +65,35 @@ body{
 }
 
 .snow:nth-child(4) {
-    left: 25%;
+    left: 90%;
     width: 30px;
     height: 30px;
-    opacity: 0.5;
-    animation-delay: 10s;
+    opacity: 0.6;
+    animation-delay: 7s;
+}
+
+.snow:nth-child(5) {
+    left: 30%;
+    width: 50px;
+    height: 50px;
+    opacity: 0.9;
+    animation-delay: 5s;
+}
+
+.snow:nth-child(6) {
+    left: 60%;
+    width: 60px;
+    height: 60px;
+    opacity: 0.3;
+    animation-delay: 12s;
+}
+
+.snow:nth-child(7) {
+    left: 95%;
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+    animation-delay: 4s;
 }
 
 .btn{
@@ -79,6 +106,8 @@ body{
     box-shadow: 2px 2px 1px;
     font-family: cursive;
     transition: 2s;
+    align-content: flex-end;
+
 }
 
 .btn a {
@@ -94,19 +123,22 @@ body{
     width: 60px;
     height: 30;
     border: thick double rgb(58, 88, 145);
-    /* border-radius: */
+    border-radius: 10%;
     background-color: #6BC;
     color: rgb(58, 88, 145);
     font-family: cursive;
     cursor: pinter;
 }
 
-#timeDisplay{
+#container{
     font-size: 50px;
     color: rgb(58, 88, 145);
     background-color: #6BC;
     border: thick double rgb(58, 88, 145);
-    /* border-radius: */
+    width: fit-content;
+    padding: 10px;
+    justify-content: flex-end;
+    border-radius: 10%;
 }
 
 
