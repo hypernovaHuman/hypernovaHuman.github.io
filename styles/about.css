@@ -40,6 +40,7 @@ ul {
    margin: 20px;
    border: thick double rgb(0, 137, 223);
    width: fit-content;
+   padding: 5px;
    
 }
 
@@ -47,6 +48,12 @@ ul {
     display: flex;
         justify-content: space-around;
         align-items:center;
+}
+
+.linkBox{
+    display: flex;
+    justify-content:start;
+    align-items: start;
 }
 
 .btn{
